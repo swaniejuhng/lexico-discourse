@@ -2,6 +2,9 @@
 
 This is the official repository for the ACL 2023 short paper [Discourse-Level Representations can Improve Prediction of Degree of Anxiety](empty). It contains manual to extracting embeddings required to predict the degree of anxiety as well as making predictions.
 
+# Model / Representations request
+You can request our models and/or representations here: https://docs.google.com/forms/d/e/1FAIpQLSc6kqSqJQvNODesSVX_NLNzGRyKfHnXuNmscb2O11N4dlGV2w/viewform?usp=sf_link
+
 
 # Setup
 ## DLATK
