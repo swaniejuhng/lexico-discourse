@@ -14,7 +14,7 @@ We use DLATK to extract embeddings and run experiments -- you can install it her
 ## Python requirements
 Clone this repository and enter the following command:
 ```
-pip install -r HaRT/requirements.txt
+pip install -r requirements.txt
 ```
 # Data Format
 You need two tables in mySQL: user table (contains information about users and their anxiety scores)
