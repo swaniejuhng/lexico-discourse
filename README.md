@@ -24,6 +24,8 @@ Field       |            Type               | Key           |
 ----------- | ----------------------------- | ------------- |
 user_id     | varchar(45)                   | PRI           |
 anx_score   | double                        |               |
+
+INDEX ON user_id
 > Keep in mind that the anx_score is a rational number between 1 and 5, representing the Anxiety facet as a subscale of the Neuroticism factor from IPIP NEO-PI (Costa and McCrae, 1992).
 
 **2. message table**
@@ -34,6 +36,8 @@ message     | text                          |               |
 user_id     | varchar(45)                   |               |
 time_updated| datetime                      |               |
 autoinc_id  | int(11), auto increment       |               |
+
+INDEX ON user_id, message_id
 
 # Extract Embeddings
 
