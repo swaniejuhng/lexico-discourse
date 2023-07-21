@@ -5,7 +5,7 @@ rm glove.twitter.27B.50d.txt
 rm glove.twitter.27B.100d.txt
 rm glove.twitter.27B.200d.txt
 
-python3 convert_glove.py
+python3 ./scripts/convert_glove.py
 
 mv ./util/tokenize_and_tag_only_1.sh TweeboParser/
 mv ./util/ConvertFromTaggingResToConll_1.py TweeboParser/scripts/

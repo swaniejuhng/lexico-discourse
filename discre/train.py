@@ -127,7 +127,7 @@ def main():
                         help='the path for saving intermediate models')
     parser.add_argument('--pretrained', type=str, default=None,
                         help='load a pretrained model and train more. Default=None')
-    parser.add_argument('--word_embedding_dict', type=str, default='./discre/glove_25.dict',
+    parser.add_argument('--word_embedding_dict', type=str, default='./glove_25.dict',
                         help='the path for language dict models')
     parser.add_argument('--tr_file', type=str,
                         help='training file')

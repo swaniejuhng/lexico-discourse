@@ -125,7 +125,7 @@ def main():
 
     parser.add_argument('--model', type=str, default='./Trained_Models/',
                         help='pretrained model')
-    parser.add_argument('--word_embedding_dict', type=str, default='./discre/glove_25.dict',
+    parser.add_argument('--word_embedding_dict', type=str, default='./glove_25.dict',
                         help='the path for language dict models')
     parser.add_argument('--test_file', type=str,
                         help='test file')
